@@ -1,0 +1,246 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #F2A03C;
+}
+
+
+header h1 {
+    font-family: 'Cinzel';
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    justify-items: center;
+}
+
+li {
+    background-color: #3F1607;
+    display: inline;
+    font-size: 48px;
+    cursor: pointer;
+    border: 2px solid black; 
+    border-radius: 10px;
+            padding: 10px; 
+            margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Cinzel';
+    font-size: 38px;
+    color: #8C1F07;
+    
+}
+
+li a:hover {
+    color: #F2A03C;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#sqt img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    
+    
+}
+
+#sqt h2 {
+    font-family: 'Cinzel';
+    padding: 5px;
+    min-width: 240px;
+    max-width: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#team img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.mission {
+    font-family: 'Cinzel';
+    display: flex;
+    padding-top: 35px;
+    height: 800px;
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 100%;
+}
+
+.content {
+background-color:#F2A03C;    
+width: 100%;
+margin: auto;
+}
+
+.content h1 {
+   background-color: #8C1F07;
+    text-align: center;
+}
+
+.content h2 {
+
+ 
+    text-align: center;
+}
+
+#tools {
+    padding-top: 30px;
+}
+
+.intro {
+    font-family: 'Cinzel';
+    width:100%;
+    text-align: center;
+    padding: 0%;
+}
+
+.intro h2{
+    background-color: #8C1F07;
+    font-size: 48px;
+}
+
+.intro p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#sqt {
+    font-family: 'Cinzel';
+    padding-top: 35px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+#d {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#blades {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#thunder {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#team {
+    padding-top: 30px;
+}
+
+#team h1 {
+    background-color: #8C1F07;
+    font-size: 48px;
+    font-family: 'Cinzel';
+    text-align: center;
+}
+
+#members {
+    font-family: 'Cinzel';
+    background-image: url(img/bg6.jpg);
+    background-size: cover; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#erwin {
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+#erwin h2 {
+    background-color: #8C1F07;
+    border-radius: 10px;
+    font-size: 48px;
+}
+
+#erwin p {
+    background-color: #F2A03C;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+#levi {
+    flex-direction: column;
+    display: flex;
+    flex-basis: 500px;
+}
+
+#levi h2 {
+    background-color: #8C1F07;
+    border-radius: 10px;
+    font-size: 48px;
+}
+
+#levi p {
+    background-color: #F2A03C;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+#hange {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+#hange h2 {
+    background-color: #8C1F07;
+    border-radius: 10px;
+    font-size: 48px;
+}
+
+#hange p {
+    background-color: #F2A03C;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+footer {
+    font-family: 'Cinzel';
+}
+
+footer h2 {
+    background-color: #8C1F07;
+    font-size: 48px;
+}
